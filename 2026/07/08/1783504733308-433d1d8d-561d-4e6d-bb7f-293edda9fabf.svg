@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">无痕模式不能让所有人看不见</title>
+  <desc id="desc">展示无痕模式之外，网站、公司网络和运营商仍可能看到访问行为。</desc>
+  <rect width="900" height="430" fill="#fbfcff"/>
+  <text x="48" y="65" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">无痕不等于网上匿名</text>
+  <text x="50" y="104" font-family="Arial, sans-serif" font-size="21" fill="#5f6b80">它不会自动隐藏 IP、账号和网络访问路径</text>
+  <rect x="70" y="175" width="180" height="96" rx="20" fill="#edf5ff"/>
+  <text x="117" y="230" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2f6bd9">你的设备</text>
+  <rect x="360" y="135" width="180" height="76" rx="20" fill="#fff5df"/>
+  <text x="412" y="181" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#946200">公司网络</text>
+  <rect x="360" y="260" width="180" height="76" rx="20" fill="#fff5df"/>
+  <text x="404" y="306" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#946200">运营商</text>
+  <rect x="650" y="175" width="180" height="96" rx="20" fill="#e8f7ef"/>
+  <text x="700" y="230" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#24704d">网站</text>
+  <path d="M250 223 C300 160 315 150 360 172" stroke="#607089" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M250 223 C305 290 315 305 360 298" stroke="#607089" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M540 172 C590 165 610 175 650 206" stroke="#607089" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M540 298 C590 290 612 268 650 238" stroke="#607089" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7,3 z" fill="#607089"/>
+    </marker>
+  </defs>
+  <text x="214" y="382" font-family="Arial, sans-serif" font-size="20" fill="#5f6b80">本机不保存记录，不代表网络路径上的所有记录都会消失</text>
+</svg>
