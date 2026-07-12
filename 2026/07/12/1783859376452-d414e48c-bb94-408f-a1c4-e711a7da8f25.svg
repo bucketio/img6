@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">文件和快捷方式不是一回事</title>
+  <desc id="desc">对比真实文件和快捷方式，说明快捷方式只是指向原位置的入口。</desc>
+  <rect width="900" height="430" fill="#fbfcff"/>
+  <text x="48" y="65" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#182033">图标不一定等于真实文件</text>
+  <g transform="translate(70 125)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="350" height="230" rx="22" fill="#ffffff" stroke="#d9deea" stroke-width="3"/>
+    <text x="30" y="46" font-size="25" font-weight="700" fill="#2f6bd9">真实文件</text>
+    <rect x="120" y="78" width="95" height="80" rx="10" fill="#edf5ff" stroke="#9db7dd" stroke-width="3"/>
+    <text x="116" y="194" font-size="20" fill="#334155">报价表.xlsx</text>
+  </g>
+  <g transform="translate(480 125)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="350" height="230" rx="22" fill="#ffffff" stroke="#d9deea" stroke-width="3"/>
+    <text x="30" y="46" font-size="25" font-weight="700" fill="#24704d">快捷方式</text>
+    <rect x="120" y="78" width="95" height="80" rx="10" fill="#e8f7ef" stroke="#9bd3b5" stroke-width="3"/>
+    <path d="M120 158 l34 -34 v24 h44 v20 h-44 v24 z" fill="#24704d"/>
+    <text x="112" y="194" font-size="20" fill="#334155">软件入口</text>
+  </g>
+  <text x="159" y="394" font-family="Arial, sans-serif" font-size="20" fill="#5f6b80">真实文件就是内容本身；快捷方式只是指向原位置的入口</text>
+</svg>
