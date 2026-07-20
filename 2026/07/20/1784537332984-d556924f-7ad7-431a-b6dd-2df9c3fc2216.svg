@@ -1,0 +1,28 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400">
+  <defs>
+    <linearGradient id="bg01" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F2B4A"/><stop offset="1" stop-color="#0A1E35"/></linearGradient>
+    <linearGradient id="gold01" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C9A84C"/><stop offset="1" stop-color="#E8CC6E"/></linearGradient>
+  </defs>
+  <rect width="940" height="400" fill="url(#bg01)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="800" cy="100" r="250" fill="#ffffff" opacity="0.02"/>
+  <circle cx="200" cy="350" r="150" fill="#C9A84C" opacity="0.03"/>
+  
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="940" height="3" fill="url(#gold01)"/>
+  
+  <!-- Badge -->
+  <rect x="30" y="25" width="80" height="26" rx="13" fill="#C9A84C"/>
+  <text x="70" y="42" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="12" font-weight="bold" fill="#0F2B4A">发刊词</text>
+  
+  <!-- Gold divider -->
+  <rect x="50" y="255" width="48" height="3" rx="1.5" fill="#C9A84C"/>
+  
+  <!-- Title -->
+  <text x="50" y="170" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="44" font-weight="bold" fill="#ffffff">凌晨三点，</text>
+  <text x="50" y="230" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="44" font-weight="bold" fill="#ffffff">一份可研报告的效率真相</text>
+  
+  <!-- Brand -->
+  <text x="910" y="370" text-anchor="end" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="13" fill="#C9A84C" opacity="0.7">清源智界 · 獴探</text>
+</svg>
