@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">关闭更新的常见理由</title>
+  <desc id="desc">展示重启打断、占用网络、老电脑卡顿和兼容担心四个关闭更新的常见理由。</desc>
+  <rect width="900" height="420" fill="#fff8f1"/>
+  <text x="55" y="62" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32" font-weight="700" fill="#2c2a26">很多人想关更新，是因为它真的会打扰</text>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <rect x="60" y="110" width="370" height="105" rx="14" fill="#ffffff" stroke="#f0c99d" stroke-width="3"/>
+    <circle cx="110" cy="162" r="28" fill="#f7a441"/>
+    <path d="M110 143v23l17 10" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    <text x="155" y="154" font-size="24" font-weight="700" fill="#35291f">突然重启</text>
+    <text x="155" y="187" font-size="18" fill="#66564a">会议、文档、网课被打断</text>
+    <rect x="470" y="110" width="370" height="105" rx="14" fill="#ffffff" stroke="#f0c99d" stroke-width="3"/>
+    <path d="M515 172h60" stroke="#e0842f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M515 148h95" stroke="#e0842f" stroke-width="10" stroke-linecap="round"/>
+    <path d="M515 196h35" stroke="#e0842f" stroke-width="10" stroke-linecap="round"/>
+    <text x="630" y="154" font-size="24" font-weight="700" fill="#35291f">占用资源</text>
+    <text x="630" y="187" font-size="18" fill="#66564a">下载、安装时电脑变慢</text>
+    <rect x="60" y="250" width="370" height="105" rx="14" fill="#ffffff" stroke="#f0c99d" stroke-width="3"/>
+    <rect x="88" y="283" width="62" height="42" rx="6" fill="#d96d36"/>
+    <path d="M95 333h48" stroke="#8f4b29" stroke-width="8" stroke-linecap="round"/>
+    <text x="155" y="294" font-size="24" font-weight="700" fill="#35291f">老电脑吃力</text>
+    <text x="155" y="327" font-size="18" fill="#66564a">磁盘高占用，风扇变响</text>
+    <rect x="470" y="250" width="370" height="105" rx="14" fill="#ffffff" stroke="#f0c99d" stroke-width="3"/>
+    <path d="M520 280l55 55M575 280l-55 55" stroke="#cc5438" stroke-width="12" stroke-linecap="round"/>
+    <text x="630" y="294" font-size="24" font-weight="700" fill="#35291f">担心兼容</text>
+    <text x="630" y="327" font-size="18" fill="#66564a">驱动、老软件可能出问题</text>
+  </g>
+</svg>

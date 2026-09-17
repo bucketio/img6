@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">面板和色彩</title>
+  <desc id="desc">用三类面板卡片和色彩靶心说明面板决定基础性格，色准决定可靠程度。</desc>
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <text x="480" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#111827">颜色靠不靠谱，不只看鲜艳</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="78" y="124" width="220" height="170" rx="18" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/>
+    <text x="188" y="188" text-anchor="middle" font-size="42" font-weight="700" fill="#4338ca">IPS</text>
+    <text x="188" y="238" text-anchor="middle" font-size="26" fill="#374151">均衡稳定</text>
+    <rect x="370" y="124" width="220" height="170" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="480" y="188" text-anchor="middle" font-size="42" font-weight="700" fill="#b45309">VA</text>
+    <text x="480" y="238" text-anchor="middle" font-size="26" fill="#374151">对比度高</text>
+    <rect x="662" y="124" width="220" height="170" rx="18" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>
+    <text x="772" y="188" text-anchor="middle" font-size="42" font-weight="700" fill="#be185d">OLED</text>
+    <text x="772" y="238" text-anchor="middle" font-size="26" fill="#374151">黑位深</text>
+  </g>
+  <g transform="translate(350 330)">
+    <circle cx="130" cy="70" r="66" fill="#fee2e2"/>
+    <circle cx="130" cy="70" r="48" fill="#bfdbfe"/>
+    <circle cx="130" cy="70" r="30" fill="#bbf7d0"/>
+    <circle cx="130" cy="70" r="10" fill="#111827"/>
+    <path d="M36 70h188M130 -24v188" stroke="#111827" stroke-width="3" opacity=".65"/>
+  </g>
+  <text x="480" y="494" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#374151">色域看范围，色准看偏不偏</text>
+</svg>

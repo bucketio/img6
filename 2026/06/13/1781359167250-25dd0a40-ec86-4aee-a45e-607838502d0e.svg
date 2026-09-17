@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">尺寸和分辨率</title>
+  <desc id="desc">用显示器轮廓和像素网格说明尺寸要和分辨率一起看。</desc>
+  <rect width="960" height="540" fill="#f7fafc"/>
+  <rect x="70" y="64" width="820" height="412" rx="28" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="104" y="104" width="360" height="240" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <rect x="514" y="104" width="342" height="240" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <g stroke="#60a5fa" stroke-width="1">
+    <path d="M124 124h320M124 164h320M124 204h320M124 244h320M124 284h320M124 324h320"/>
+    <path d="M144 124v200M184 124v200M224 124v200M264 124v200M304 124v200M344 124v200M384 124v200M424 124v200"/>
+  </g>
+  <g stroke="#4ade80" stroke-width="1">
+    <path d="M534 124h302M534 144h302M534 164h302M534 184h302M534 204h302M534 224h302M534 244h302M534 264h302M534 284h302M534 304h302M534 324h302"/>
+    <path d="M554 124v200M574 124v200M594 124v200M614 124v200M634 124v200M654 124v200M674 124v200M694 124v200M714 124v200M734 124v200M754 124v200M774 124v200M794 124v200M814 124v200"/>
+  </g>
+  <text x="284" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">尺寸</text>
+  <text x="685" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">分辨率</text>
+  <text x="480" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#374151">屏幕越大，越要搭配足够细的像素</text>
+</svg>
