@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+  <rect width="900" height="620" fill="#f7f9fb"/>
+  <text x="450" y="50" font-size="22" font-weight="bold" fill="#1c3d5e" text-anchor="middle">功能检查 vs 参数检查：一张表看懂</text>
+
+  <!-- 表头 -->
+  <rect x="40" y="80" width="160" height="52" rx="0" fill="#1c3d5e"/>
+  <rect x="200" y="80" width="330" height="52" fill="#2f6fb7"/>
+  <rect x="530" y="80" width="330" height="52" fill="#d9822b"/>
+  <text x="120" y="112" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">维度</text>
+  <text x="365" y="112" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">功能检查 Function Test</text>
+  <text x="695" y="112" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">参数检查 Parameter Test</text>
+
+  <!-- 行 -->
+  <g font-size="14.5">
+    <rect x="40" y="132" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="132" width="330" height="66" fill="#ffffff"/>
+    <rect x="530" y="132" width="330" height="66" fill="#ffffff"/>
+    <text x="52" y="160" fill="#1c3d5e" font-weight="bold">回答的问题</text>
+    <text x="212" y="160" fill="#333">功能是否正常执行？</text>
+    <text x="212" y="184" fill="#333">（定性：能不能干活）</text>
+    <text x="542" y="160" fill="#333">特性是否满足限值？</text>
+    <text x="542" y="184" fill="#333">（定量：干得怎么样）</text>
+
+    <rect x="40" y="198" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="198" width="330" height="66" fill="#fafbfd"/>
+    <rect x="530" y="198" width="330" height="66" fill="#fafbfd"/>
+    <text x="52" y="226" fill="#1c3d5e" font-weight="bold">检查对象</text>
+    <text x="212" y="226" fill="#333">行为与功能表现</text>
+    <text x="212" y="250" fill="#333">灯亮不亮、通信通不通</text>
+    <text x="542" y="226" fill="#333">电气特性数值</text>
+    <text x="542" y="250" fill="#333" font-family="Consolas,monospace">电流/电压/信号电平/时序</text>
+
+    <rect x="40" y="264" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="264" width="330" height="66" fill="#ffffff"/>
+    <rect x="530" y="264" width="330" height="66" fill="#ffffff"/>
+    <text x="52" y="292" fill="#1c3d5e" font-weight="bold">判定依据</text>
+    <text x="212" y="292" fill="#333">功能规范 + 运行模式定义</text>
+    <text x="212" y="316" fill="#333">配合 VW 80101 失效等级</text>
+    <text x="542" y="292" fill="#333">数据表 / 接口规范限值</text>
+    <text x="542" y="316" fill="#333" font-family="Consolas,monospace">例：静态电流 ≤ 100 µA</text>
+
+    <rect x="40" y="330" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="330" width="330" height="66" fill="#fafbfd"/>
+    <rect x="530" y="330" width="330" height="66" fill="#fafbfd"/>
+    <text x="52" y="358" fill="#1c3d5e" font-weight="bold">执行时机</text>
+    <text x="212" y="358" fill="#333">应力前、应力中（在线）</text>
+    <text x="212" y="382" fill="#333">应力后</text>
+    <text x="542" y="358" fill="#333">试验前基准测量</text>
+    <text x="542" y="382" fill="#333">规定检查点复测比对</text>
+
+    <rect x="40" y="396" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="396" width="330" height="66" fill="#ffffff"/>
+    <rect x="530" y="396" width="330" height="66" fill="#ffffff"/>
+    <text x="52" y="424" fill="#1c3d5e" font-weight="bold">输出结果</text>
+    <text x="212" y="424" fill="#333">正常 / 失效描述</text>
+    <text x="212" y="448" fill="#333">（附失效现象与复现条件）</text>
+    <text x="542" y="424" fill="#333">实测值 vs 限值清单</text>
+    <text x="542" y="448" fill="#333">（含测量条件与仪器信息）</text>
+
+    <rect x="40" y="462" width="160" height="66" fill="#eef3f8"/>
+    <rect x="200" y="462" width="330" height="66" fill="#fafbfd"/>
+    <rect x="530" y="462" width="330" height="66" fill="#fafbfd"/>
+    <text x="52" y="490" fill="#1c3d5e" font-weight="bold">典型仪器</text>
+    <text x="212" y="490" fill="#333">诊断仪、上位机、负载台架</text>
+    <text x="212" y="514" fill="#333">HIL / 手动操作</text>
+    <text x="542" y="490" fill="#333" font-family="Consolas,monospace">电流探头、万用表、示波器</text>
+    <text x="542" y="514" fill="#333">程控电源</text>
+  </g>
+
+  <!-- 底部结论 -->
+  <rect x="40" y="548" width="820" height="48" rx="10" fill="#1c3d5e"/>
+  <text x="450" y="578" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">功能检查看“行为”，参数检查看“特性”——两者互补，缺一不可</text>
+</svg>
